@@ -24,6 +24,18 @@ a:hover{
   background-attachment: fixed;
 }
 
+.blankspace{
+  border: solid 5px yellow;
+  height: 70px;
+  width: 100%;
+}
+
+.martydallin{
+  border: solid 5px red;
+  height: 200px;
+  margin: auto;
+  width: 800px;
+}
 .menu{
   display: flex;
   float: right;
@@ -63,6 +75,7 @@ a:hover{
   position: fixed;
   background-color: transparent;
   height: 90px;
+  white-space: nowrap;
 }
     .blanknav{
       width: 100%;
@@ -73,6 +86,7 @@ a:hover{
   font-size: 700%;
   font-family: 'montserrat';
   text-align: center;
+  white-space: nowrap;
 }
   .themecolor{
     color: #07a8c5;
@@ -83,5 +97,6 @@ a:hover{
   font-size: 400%;
   text-align: center;
   opacity: 50%;
-  color:
+  color: ;
+  white-space: nowrap;
 }
