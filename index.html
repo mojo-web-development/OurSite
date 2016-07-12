@@ -12,10 +12,24 @@
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Lobster' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <script type="text/javascript" src="main.js"> </script>
+    <script type="text/javascript">
+    var container;
+    var ypos;
+    function parralax (){
+
+      ypos = window.pageYOffset;
+      container = document.getElementById('container1');
+
+      container.style.top  = (ypos *.2) + 'px';
+        }
+        window.addEventListener("scroll",parralax);
+
+    </script>
   </head>
 
-  <body class="beginning">
+  <body>
+
+    <div class="beginning">
       <div class="navbar">
         <div class="logo">
           MOJO
@@ -45,16 +59,23 @@
       <div class="title2">
         Professional web design
       </div>
-<div class="container">
+    </div>
+<div id="container">
+  <div id="container1">
   <div class="content1">
-
+cool
   </div>
   <div class="content2">
-
+beans
   </div>
   <div class="content3">
-
+bro
   </div>
+</div>
+</div>
+
+<div class="container2">
+
 </div>
 
   </body>
