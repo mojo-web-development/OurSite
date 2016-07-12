@@ -31,7 +31,12 @@ body{
 .blankspace{
   border: solid 5px transparent;
   height: 40px;
-  width: 100%;
+  margin: auto;
+  width: 790px;
+}
+
+.cleanlook{
+  background: white;
 }
 
 #container{
@@ -93,11 +98,9 @@ footer{
 }
 
 .martydallin{
-  background: #222;
-  border-radius: 20px;
-  box-shadow: 10px 10px 5px #999;
+  background: white;
   height: 300px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 0 auto;
   width: 800px;
 }
   .profile{
