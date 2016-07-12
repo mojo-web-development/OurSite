@@ -180,6 +180,7 @@ footer{
   background: transparent;
   height: 90px;
   white-space: nowrap;
+  z-index: 1000;
 }
     .blanknav{
       height: 90px;
