@@ -3,9 +3,43 @@
   height: 700px;
   width: 100%;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  top:  0;
-  right: 0;
-  left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   background-attachment: fixed;
 }
+
+.menu{
+  display: flex;
+  float: right;
+  width: 50%;
+  margin-left: 33%;
+  position: fixed;
+  font-family: 'Poiret One',sans-serif;
+}
+    .option1{
+      margin: auto;
+    }
+
+    .option2{
+      margin: auto;
+    }
+
+    .option3{
+      margin: auto;
+    }
+
+    .option4{
+      margin: auto;
+    }
+
+.logo{
+  float:left;
+}
+    .logo2{
+      float: left;
+    }
