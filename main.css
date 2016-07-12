@@ -1,0 +1,11 @@
+.beginning{
+  background-color: #333;
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top:  0;
+  right: 0;
+  left: 0;
+  background-attachment: fixed;
+}
