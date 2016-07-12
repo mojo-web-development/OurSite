@@ -29,9 +29,7 @@ a:hover{
   float: right;
   width: 50%;
   margin-left: 33%;
-  position: fixed;
   font-family: 'Poiret One',sans-serif;
-  background-color: transparent;
 }
     .option1{
       margin: auto;
@@ -49,9 +47,19 @@ a:hover{
       margin: auto;
     }
 
-.logo{
-  float:left;
-}
-    .logo2{
-      float: left;
+    .logo{
+    	float: left;
+    	font-size: 200%;
+    	font-family: 'montserrat', helvetica;
     }
+
+    .logo2{
+    	font-family: 'Shadows Into Light', cursive;
+
+    }
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+}
