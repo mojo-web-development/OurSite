@@ -25,17 +25,54 @@ a:hover{
 }
 
 .blankspace{
-  border: solid 5px yellow;
-  height: 70px;
+  border: solid 5px transparent;
+  height: 40px;
   width: 100%;
 }
 
 .martydallin{
-  border: solid 5px red;
-  height: 200px;
+  border: solid 5px transparent;
+  height: 300px;
   margin: auto;
   width: 800px;
 }
+  .profile{
+    border: solid 3px transparent;
+    float: left;
+    height: 300px;
+    width: 35%;
+  }
+
+    .profilepic1{
+      background-image: url("http://smallbusinessconference.energy.gov/images/2015/Speakers/Photos/RVaughn.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      height: 180px;
+      margin: 60px auto;
+      width: 180px;
+    }
+
+    .profilepic2{
+      background-image: url("https://lh3.googleusercontent.com/-m-abbuPwWRw/AAAAAAAAAAI/AAAAAAAAAAA/-KiqyhV1k6k/photo.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      height: 180px;
+      margin: 60px auto;
+      width: 180px;
+    }
+
+  .profiletext{
+    border: solid 3px transparent;
+    color: #999;
+    float: left;
+    font-family: 'montserrat';
+    height: 220px;
+    margin: 40px auto 0 auto;
+    width: 63.5%;
+  }
+
 .menu{
   display: flex;
   float: right;
