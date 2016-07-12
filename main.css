@@ -74,11 +74,14 @@ a:hover{
   font-family: 'montserrat';
   text-align: center;
 }
+  .titleabout{
+    color: #07a8c5;
+  }
 
 .title2{
   font-family: 'Poiret One';
   font-size: 400%;
   text-align: center;
   opacity: 50%;
-  color: 
+  color:
 }
