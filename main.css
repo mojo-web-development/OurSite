@@ -1,14 +1,12 @@
 a{
   color: white;
   text-decoration: none;
-  position: fixed;
 }
 
 a:hover{
   color: #07a8c5;
   transition-duration: 1s;
   text-decoration: underline;
-  position: fixed;
 }
 
 body{
@@ -87,6 +85,14 @@ body{
   height: 600px;
   width: 100%;
 }
+
+.copyright{
+  margin-left: 5px;
+  margin-top: 40px;
+  float:left;
+}
+
+
 .martydallin{
   border: solid 5px transparent;
   height: 300px;
