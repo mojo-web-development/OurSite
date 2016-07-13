@@ -1,5 +1,7 @@
-var container
-var ypos
+
+var container;
+var ypos;
+
 function parralax (){
 
   ypos = window.pageYOffset;

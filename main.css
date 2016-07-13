@@ -29,7 +29,12 @@ body{
 .blankspace{
   border: solid 5px transparent;
   height: 40px;
-  width: 100%;
+  margin: auto;
+  width: 790px;
+}
+
+.cleanlook{
+  background: white;
 }
 
 #container{
@@ -92,11 +97,15 @@ body{
   float:left;
 }
 
+footer{
+  color: white;
+}
+
 
 .martydallin{
-  border: solid 5px transparent;
+  background: white;
   height: 300px;
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 800px;
 }
   .profile{
@@ -176,10 +185,11 @@ body{
   background: transparent;
   height: 90px;
   white-space: nowrap;
+  z-index: 1000;
 }
     .blanknav{
-      width: 100%;
       height: 90px;
+      width: 100%;
     }
 
 .title{
