@@ -12,19 +12,6 @@
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Lobster' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <script type="text/javascript">
-    var container;
-    var ypos;
-    function parralax (){
-
-      ypos = window.pageYOffset;
-      container = document.getElementById('container1');
-
-      container.style.top  = (ypos *.2) + 'px';
-        }
-        window.addEventListener("scroll",parralax);
-
-    </script>
   </head>
 
   <body>
@@ -81,6 +68,19 @@
       Copyright 2016 @ MojoWebDevelopment
     </footer>
 
+    <script type="text/javascript">
+    var container;
+    var ypos;
+    function parralax (){
+
+      ypos = window.pageYOffset;
+      container = document.getElementById('container1');
+
+      container.style.top  = (ypos *.2) + 'px';
+        }
+        window.addEventListener("scroll",parralax);
+
+    </script>
   </body>
 
 </html>
