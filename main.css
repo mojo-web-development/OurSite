@@ -7,6 +7,7 @@ a:hover{
   color: #07a8c5;
   transition-duration: 1s;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 body{
@@ -48,12 +49,13 @@ body{
 
 #container{
   display: flex;
-  background-color: white;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -200px;
   height: 200px;
+  text-align: center;
+  background-color: white;
 }
 
 #container1{
@@ -68,31 +70,77 @@ body{
       margin: auto;
       padding: 10px;
       width: 150px;
-      height: 200px;
+      height: 225px;
       border-radius: 10px;
       background-color: #07a8c5;
       opacity: .6;
       line-height: 1.5em;
+      transition-duration: 1s;
+      font-family: 'Dosis';
+    }
+      .content1:hover{
+        margin: auto;
+        padding: 10px;
+        width: 150px;
+        height: 225px;
+        border-radius: 10px;
+        background-color: #07a8c5;
+        opacity: .6;
+        line-height: 1.5em;
+        color: white;
+        transition-duration: 1s;
     }
 
     .content2{
       margin: auto;
       padding: 10px;
       width: 150px;
-      height: 200px;
+      height: 225px;
       border-radius: 10px;
       background-color: #07a8c5;
       opacity: .6;
+      line-height: 1.5em;
+      transition-duration: 1s;
+      font-family: 'Dosis';
+    }
+
+      .content2:hover{
+        margin: auto;
+        padding: 10px;
+        width: 150px;
+        height: 225px;
+        border-radius: 10px;
+        background-color: #07a8c5;
+        opacity: .6;
+        line-height: 1.5em;
+        color: white;
+        transition-duration: 1s;
     }
 
     .content3{
       margin: auto;
       padding: 10px;
       width: 150px;
-      height: 200px;
+      height: 225px;
       border-radius: 10px;
       background-color: #07a8c5;
       opacity: .6;
+      line-height: 1.5em;
+      transition-duration: 1s;
+      font-family: 'Dosis';
+    }
+
+      .content3:hover{
+        margin: auto;
+        padding: 10px;
+        width: 150px;
+        height: 225px;
+        border-radius: 10px;
+        background-color: #07a8c5;
+        opacity: .6;
+        line-height: 1.5em;
+        color: white;
+        transition-duration: 1s;
     }
 
 .container2{
@@ -123,6 +171,21 @@ footer{
 }
 
 .materialIcons{
+  font-family: 'material icons';
+  text-align: center;
+  font-size: 48;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.materialIcons1{
+  font-family: 'material icons';
+  text-align: center;
+  font-size: 48;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.materialIcons2{
   font-family: 'material icons';
   text-align: center;
   font-size: 48;
@@ -203,8 +266,8 @@ footer{
 .navbar{
   width: 100%;
   position: fixed;
-  background: transparent;
-  height: 90px;
+
+  height: 70px;
   white-space: nowrap;
   z-index: 1000;
 }
