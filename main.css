@@ -321,9 +321,19 @@ footer{
   z-index: 1000;
 }
     .blanknav{
-      height: 90px;
+      height: 75px;
       width: 100%;
     }
+
+.ourdesignhead{
+  background-image: url("http://www.wallpaperun.com/wp-content/uploads/2016/02/Space-Wallpaper-Pictures-G7Q.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sections{
+  height: 550px;
+  width: 100%;
+}
 
 .title{
   font-size: 700%;
