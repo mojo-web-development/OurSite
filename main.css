@@ -69,7 +69,7 @@ body{
     .content1{
       margin: auto;
       padding: 10px;
-      width: 150px;
+      width: 200px;
       height: 225px;
       border-radius: 10px;
       background-color: #07a8c5;
@@ -81,7 +81,7 @@ body{
       .content1:hover{
         margin: auto;
         padding: 10px;
-        width: 150px;
+        width: 200px;
         height: 225px;
         border-radius: 10px;
         background-color: #07a8c5;
@@ -94,7 +94,7 @@ body{
     .content2{
       margin: auto;
       padding: 10px;
-      width: 150px;
+      width: 200px;
       height: 225px;
       border-radius: 10px;
       background-color: #07a8c5;
@@ -107,7 +107,7 @@ body{
       .content2:hover{
         margin: auto;
         padding: 10px;
-        width: 150px;
+        width: 200px;
         height: 225px;
         border-radius: 10px;
         background-color: #07a8c5;
@@ -120,7 +120,7 @@ body{
     .content3{
       margin: auto;
       padding: 10px;
-      width: 150px;
+      width: 200px;
       height: 225px;
       border-radius: 10px;
       background-color: #07a8c5;
@@ -133,7 +133,7 @@ body{
       .content3:hover{
         margin: auto;
         padding: 10px;
-        width: 150px;
+        width: 200px;
         height: 225px;
         border-radius: 10px;
         background-color: #07a8c5;
