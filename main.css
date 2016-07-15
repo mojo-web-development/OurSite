@@ -71,7 +71,7 @@ body{
   border: solid 5px transparent;
   height: 40px;
   margin: auto;
-  width: 790px;
+  width: 100%;
 }
 
 .cleanlook{
@@ -182,6 +182,12 @@ body{
   margin-left: 5px;
   margin-top: 40px;
   float:left;
+}
+
+.fullcontainer{
+  background: white;
+  height: 700px;
+  width: 100%;
 }
 
 footer{
