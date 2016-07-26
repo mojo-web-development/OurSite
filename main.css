@@ -38,6 +38,7 @@ body{
       font-size: 125%;
       outline-style: none;
       text-shadow: 1px 1px white;
+      margin-top: 10px;
     }
 
     input[type="submit"]:hover{
@@ -52,6 +53,23 @@ body{
       border: 2px solid white;
       cursor: pointer;
       outline-style: none;
+    }
+
+    input[type="text"]{
+      width: 175px;
+      height: 40px;
+      border-radius: 3px;
+      outline: none;
+      display: block;
+      margin-left: 120px;
+      margin-top: 10px;
+      font-family: 'Shadows into light';
+      font-size: 120%;
+    }
+
+    label{
+      font-family: 'Lobster';
+      font-size: 125%;
     }
 
 .beginning{
@@ -83,7 +101,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -200px;
-  height: 1000px;
+  height: 600px;
   text-align: center;
   background-color: white;
 }
@@ -174,9 +192,36 @@ body{
 
 .container2{
   background-color: #333;
-  height: 400px;
+  height: 600px;
   width: 100%;
+  padding-top: 100px;
 }
+
+.container3{
+height: 600px;
+background-color: white;
+display: flex;
+}
+
+    .column1{
+      margin: auto;
+    }
+
+    .column2{
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+      height: 400px;
+      width: 400px;
+      background-color: #07a8c5;
+      opacity: .6;
+      border: 1px solid black;
+      border-radius: 25px;
+    }
+
+    .column3{
+      margin: auto;
+    }
 
 .copyright{
   margin-left: 5px;
@@ -191,10 +236,13 @@ body{
 }
 
 footer{
-  color: white;
-  background-color: #c3cad1;
+  color: grey;
+  background-color: #eee;
+  text-decoration: underline;
   height: 20px;
   padding-top: 30px;
+  font-family: 'montserrat';
+  padding-bottom: 15px;
 }
 
 .leadMagnet{
@@ -210,6 +258,18 @@ footer{
   margin-top: 50px;
   color: #eee;
   font-size: 120%;
+}
+
+.leadMagnet3{
+  text-align: center;
+  font-family: 'Poiret One',sans-serif;
+  margin-top: 50px;
+  color: #eee;
+  font-size: 150%;
+}
+
+.form{
+  text-align: center;
 }
 
 .martydallin{
@@ -315,10 +375,10 @@ footer{
 .navbar{
   width: 100%;
   position: fixed;
-
-  height: 70px;
+  height: 50px;
   white-space: nowrap;
   z-index: 1000;
+  transition-duration: 1s;
 }
     .blanknav{
       height: 75px;
@@ -333,6 +393,10 @@ footer{
 .sections{
   height: 550px;
   width: 100%;
+}
+
+.slideshow{
+  float: left;
 }
 
 .title{
@@ -361,8 +425,18 @@ footer{
 }
 
 .website{
+  width: 100%;
+  float: left;
   text-align: left;
-  margin-top: 452px;
+  margin-top: 200px;
   border: 2px solid #333;
   background-color: #eee;
+}
+
+.website2{
+  font-family: 'Poiret one';
+  padding: 90px;
+  margin-left: 450px;
+  line-height: 2em;
+  color: grey;
 }

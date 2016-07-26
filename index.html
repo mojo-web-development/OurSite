@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300' rel='stylesheet' type='text/css'>
+<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
   </head>
 
   <body>
@@ -64,9 +68,16 @@
         </div>
       </div>
       <div class="website">
+      <div class="slideshow">
       <img src="https://visualhunt.com/photos/xl/1/aerial-view-of-laptop-and-notebook.jpg" height="300px" width="400px" border-radius="5px" />
+    </div>
+      <div class="website2">
+        Your website<strong> IS</strong>  your business. It's the first impression that every online customer will have of you and your products and services. Take care of your site, Love it, and most importantly maximize your efficiency with it.
       </div>
     </div>
+    </div>
+
+
 
     <div class="container2">
       <div class="leadMagnet">
@@ -78,6 +89,27 @@
       <div id="button">
         <input type="submit" value="Get Your Mojo On!" />
       </div>
+    </div>
+
+    <div class="container3">
+<div class="column1"></div>
+<div class="column2">
+  <div class="leadMagnet3">
+    Shoot us an email!<br />
+    We'd love to hear from you!
+  </div>
+  <div class="form">
+    <form method="post">
+  <label for="first_name">First Name</label>
+  <input type="text" placeholder="First Name" />
+  <label for="email">Email</label>
+  <input type="text" placeholder="email" />
+  <input type="submit"  />
+</form>
+</div>
+</div>
+<div class="column3"></div>
+
     </div>
 
     <footer>
@@ -97,7 +129,22 @@
         window.addEventListener("scroll",parralax);
 
     </script>
+<script type="text/javascript">
 
+$(document).ready(function(){
+   var scroll_start = 0;
+   var startchange = $('.navbar');
+   var offset = startchange.offset();
+   $(document).scroll(function() {
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.navbar').css('background-color', '#333');
+       } else {
+          $('.navbar').css('background-color', 'transparent');
+       }
+   });
+});
+</script>
 
   </body>
 
