@@ -204,7 +204,14 @@ display: flex;
 }
 
     .column1{
-      margin: auto;
+      margin-left: -450px;
+
+      height: 400px;
+      width: 400px;
+      background-color: #07a8c5;
+      opacity: .6;
+      border: 1px solid black;
+      border-radius: 25px;
     }
 
     .column2{
@@ -216,11 +223,16 @@ display: flex;
       background-color: #07a8c5;
       opacity: .6;
       border: 1px solid black;
-      border-radius: 25px;
+
     }
 
     .column3{
-      margin: auto;
+      margin-right: -450px;
+      height: 400px;
+      width: 400px;
+      background-color: #07a8c5;
+      opacity: .6;
+      border: 1px solid black;
     }
 
 .copyright{
